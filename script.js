@@ -5,10 +5,10 @@ document.querySelector("body").appendChild(h2); */
 
 /*mouseover event to enlarge image when mouse clicks the img
 
-*/
 function addingEventListener() {
     const lookingOut = document.getElementById("skydive");
     lookingOut.addEventListener('click', function () {
         alert("Looking towards the distant horizon");
     });
 };
+*/
