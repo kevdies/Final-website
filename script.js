@@ -20,6 +20,42 @@ careerFocusButton.onclick = () => {
     careerFocus.style.display = "block";
 };
 
-careerFocusButton.dblclick = () => {
+careerFocusButton.ondblclick = () => {
     careerFocus.style.display = "none";
+};
+
+
+const careerBackgroundButton = document.querySelector("button#careerBackground");
+const careerBackground = document.querySelector("div.careerBackground");
+careerBackground.style.display = "none";
+
+careerBackgroundButton.onclick = () => {
+    careerBackground.style.display = "block";
+};
+careerBackgroundButton.ondblclick = () => {
+    careerBackground.style.display = "none";
+};
+
+const hobbiesButton = document.querySelector("button#hobbies");
+const hobbies = document.querySelector("div.hobbies");
+hobbies.style.display = "none";
+
+hobbiesButton.onclick = () => {
+    hobbies.style.display = "block";
+};
+
+hobbiesButton.ondblclick = () => {
+    hobbies.style.display = "none";
+};
+
+const futureButton = document.querySelector("button#future");
+const future = document.querySelector("div.future");
+future.style.display = "none";
+
+futureButton.onclick = () => {
+    future.style.display = "block";
+};
+
+futureButton.ondblclick = () => {
+    future.style.display = "none";
 };
