@@ -24,3 +24,8 @@ button:hover {
     background-color:rgb(162, 86, 162);
     transition: 0.7s;
 }
+
+h1 {
+    text-align: center;
+    padding:20px;
+}
