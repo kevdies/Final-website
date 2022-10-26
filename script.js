@@ -12,16 +12,16 @@ document.querySelector("body").appendChild(h2); */
     });
 
 
-let careerFocusButton = document.querySelector("button#careerFocus");
-let careerFocus = document.querySelector("div.careerFocus");
-careerFocus.style.display = "none";
+let careerSkillsButton = document.querySelector("button#careerSkills");
+let careerSkills = document.querySelector("div.careerSkills");
+careerSkills.style.display = "none";
 
-careerFocusButton.onclick = () => {
-    careerFocus.style.display = "block";
+careerSkillsButton.onclick = () => {
+    careerSkills.style.display = "block";
 };
 
-careerFocusButton.ondblclick = () => {
-    careerFocus.style.display = "none";
+careerSkillsButton.ondblclick = () => {
+    careerSkills.style.display = "none";
 };
 
 
