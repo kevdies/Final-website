@@ -6,9 +6,9 @@ document.querySelector("body").appendChild(h2); */
 /*mouseover event to enlarge image when mouse clicks the img
 */
 
-    const lookingOut = document.getElementById("skydive");
-    lookingOut.addEventListener('click', function () {
-        alert("Looking towards the horizon");
+    const photo = document.getElementById("kevandarti");
+    photo.addEventListener('click', function () {
+        alert("Fall Hike Around Port Huron");
     });
 
 
